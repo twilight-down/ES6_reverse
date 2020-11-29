@@ -35,4 +35,7 @@ let obj1 = {
 }
 
 let obj2 = _deepClone(obj1)
+obj1['name'] = 'mike'
+obj1.teacher.a = 'lisa'
 console.log(obj2);
+console.log(obj1);
